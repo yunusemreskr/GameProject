@@ -17,8 +17,8 @@ internal class Program
         gameCampaign1.GameCampaignName = "'Bahar İndirimi'";
         gameCampaign1.GameCampaignPercent = 30;
 
-        GameSellingManager gameSellingManager = new GameSellingManager();
-        CampaignManager campaignManager1 = new CampaignManager();
+        IGameSelling gameSellingManager = new GameSellingManager();
+        ICampaignService campaignManager1 = new CampaignManager();
         PlayerManager playerManager1 = new PlayerManager();
         ICheckService checkService = new PlayerManager();
 
