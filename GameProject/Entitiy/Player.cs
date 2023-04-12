@@ -12,10 +12,10 @@ namespace GameProject.Entitiy
     internal class Player : IEntitiy
     {
         public int Id { get; set; }
-        public string TcNo { get; set; }
+        public long TcNo { get; set; }
         public string PlayerFirstName { get; set; }
         public string PlayerLastName { get; set; }
-        public int BirthDate { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
 
     }

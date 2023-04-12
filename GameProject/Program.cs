@@ -8,7 +8,7 @@ internal class Program
     private static void Main(string[] args)
     {
         Player player1 = new Player();
-        player1 = new Player { Id = 1, PlayerFirstName = "Yunus Emre", PlayerLastName = "Şeker", BirthDate = 15021999, TcNo = "12345678910" };
+        player1 = new Player { Id = 1, PlayerFirstName = "Yunus Emre", PlayerLastName = "Şeker", DateOfBirth = new DateTime(1999,2,15) , TcNo = 5399423771 };
 
         Game game1 = new Game();
         game1 = new Game { GameName= "The Forest",GamePrice= 100};
