@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameProject
+namespace GameProject.Entitiy
 {
-    internal class Player:IEntitiy
+    internal class Player : IEntitiy
     {
         public int Id { get; set; }
         public string TcNo { get; set; }

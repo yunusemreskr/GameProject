@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameProject
+namespace GameProject.NewFolder
 {
     interface ICheckService
     {
         void CheckIfRealPlayer(Player player)
         {
-            if (Convert.ToBoolean(player.BirthDate) == true) 
+            if (Convert.ToBoolean(player.BirthDate) == true)
             {
                 Console.WriteLine("Verified account.");
             }
-            else 
+            else
             {
                 Console.WriteLine("Unverified acoount!");
             }

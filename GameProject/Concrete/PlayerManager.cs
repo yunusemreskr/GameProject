@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameProject
+namespace GameProject.Concrete
 {
     internal class PlayerManager : IPlayerManager, ICheckService
     {
         public void DeleteAccount(Player player)
         {
-            Console.WriteLine("Player: " + player.Id+ player.PlayerFirstName + " deleted his account." );
+            Console.WriteLine("Player: " + player.Id + player.PlayerFirstName + " deleted his account.");
         }
 
         public void SignUp(Player player)
@@ -22,9 +22,9 @@ namespace GameProject
         {
             Console.WriteLine("Player: " + player.PlayerFirstName + " updated his account successfluy.");
         }
-        public void CheckIfRealPlayer(Player player) 
+        public void CheckIfRealPlayer(Player player)
         {
-            Console.WriteLine("Player : " + player.PlayerFirstName+ player.PlayerLastName + " checked account.");
+            Console.WriteLine("Player : " + player.PlayerFirstName + player.PlayerLastName + " checked account.");
         }
     }
 }

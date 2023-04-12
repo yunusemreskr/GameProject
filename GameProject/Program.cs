@@ -1,4 +1,6 @@
-﻿using GameProject;
+﻿using GameProject.Concrete;
+using GameProject.Entitiy;
+using GameProject.NewFolder;
 
 internal class Program
 {

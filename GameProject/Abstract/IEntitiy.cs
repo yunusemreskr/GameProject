@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameProject
+namespace GameProject.NewFolder
 {
-    interface IGameSelling
+    internal interface IEntitiy
     {
-        void GameSelling(Player player, Game game, GameCampaign gameCampaign);
-
     }
 }

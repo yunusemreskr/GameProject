@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameProject
+namespace GameProject.Entitiy
 {
-    internal class GameCampaign:IEntitiy
+    internal class GameCampaign : IEntitiy
     {
         public string GameCampaignName { get; set; }
         public float GameCampaignPercent { get; set; }
