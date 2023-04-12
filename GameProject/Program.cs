@@ -2,6 +2,7 @@
 using GameProject.Entitiy;
 using GameProject.NewFolder;
 
+
 internal class Program
 {
     private static void Main(string[] args)

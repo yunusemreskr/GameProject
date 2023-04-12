@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GameProject.Concrete;
+using GameProject.Entitiy;
+using GameProject.NewFolder;
 
 namespace GameProject.Concrete
 {
@@ -10,7 +13,7 @@ namespace GameProject.Concrete
     {
         public void DeleteAccount(Player player)
         {
-            Console.WriteLine("Player: " + player.Id + player.PlayerFirstName + " deleted his account.");
+            Console.WriteLine("Player: " + player.PlayerFirstName + " Player Id: "+ player.Id + " deleted his account.");
         }
 
         public void SignUp(Player player)
@@ -24,7 +27,7 @@ namespace GameProject.Concrete
         }
         public void CheckIfRealPlayer(Player player)
         {
-            Console.WriteLine("Player : " + player.PlayerFirstName + player.PlayerLastName + " checked account.");
+            Console.WriteLine("Player : " + player.PlayerFirstName + " " + player.PlayerLastName + " checked account.");
         }
     }
 }
