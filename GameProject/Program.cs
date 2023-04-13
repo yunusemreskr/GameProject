@@ -10,7 +10,7 @@ internal class Program
     {
         IGameSelling gameSellingManager = new GameSellingManager();
         ICampaignService campaignManager1 = new CampaignManager();
-        PlayerManager playerManager1 = new PlayerManager(new MernisServiceAdapter());
+        IPlayerManager playerManager1 = new PlayerManager(new MernisServiceAdapter());
         ICheckService checkService1 = new MernisServiceAdapter();
 
         Player player1 = new Player();
@@ -47,11 +47,6 @@ internal class Program
         campaignManager1.DeleteCampaign(gameCampaign1);
 
         checkService1.CheckIfRealPlayer(player1);
-
-        Console.ReadLine();
-
-        //PlayerManager playerManager1 = new PlayerManager(new MernisServiceAdapter());
-        
 
         Console.ReadLine();
 
